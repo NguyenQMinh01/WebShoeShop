@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> afc016e (changeFiletoErb)
 
 # ShoeShop
 
@@ -43,11 +39,7 @@ Một ứng dụng cửa hàng trực tuyến đơn giản nhưng đầy đủ c
 
 Clone this repository:
 
-<<<<<<< HEAD
-`git clone https://github.com/NguyenQMinh01/WebShoeShop.git
-=======
 `git clone https://github.com/NguyenQMinh01/WebShoeShop.git`
->>>>>>> afc016e (changeFiletoErb)
 
 Install gems:
 
@@ -63,11 +55,7 @@ Setup your test database:
 
 ## Run
 
-<<<<<<< HEAD
 rails s
-=======
-`rails s`
->>>>>>> afc016e (changeFiletoErb)
 
 ## Testing
 
@@ -79,7 +67,3 @@ Check the quality of code with `bundle exec rails_best_practices . --spec -c con
 
 Run `bundle exec rubycritic` for code quality reporter
 
-<<<<<<< HEAD
-=======
-## License
->>>>>>> afc016e (changeFiletoErb)
