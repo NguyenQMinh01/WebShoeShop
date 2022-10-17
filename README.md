@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> afc016e (changeFiletoErb)
 
 # ShoeShop
 
-> A simple yet fully functional web-shop application built with Ruby on Rails
+Một ứng dụng cửa hàng trực tuyến đơn giản nhưng đầy đủ chức năng được xây dựng bằng Ruby on Rails
 
 
 ## Functionality included
@@ -14,8 +17,6 @@
 - Search for products using auto-completion
 - View related and recent products
 - Product's pagination
-- Use app's API if the administrator has given you UID and secret
-- Admin Page
 - OAuth 2 provider
 
 ## About the code
@@ -31,8 +32,6 @@
 - Using `jQuery` and plugins: `easydropdown`, `responsiveslides`, `simpleCart`, `typeahead`, etc.
 - `meta-tags` for SEO optimization
 - `OmniAuth` provides authentication using third-party credentials
-- `Doorkeeper` as `OAuth 2` provider and `API` authenticator
-- `API` built with `jbuilder` and `active_model_serializers`
 - `acts-as-taggable-on` for filtering products by tags
 - `rack-attack` as middleware for throttling and blocking abusive requests
 - TDD with `RSpec` + `ShouldaMatchers` + `FactoryBot` + `etc.` (over `110` tests)
@@ -40,17 +39,15 @@
   - `Bullet` as `N+1` problem profiler
   - `active_record_doctor` helps to keep the database in a good shape
 - Code quality scanners: `rails_best_practices`, `rubocop`, `rubycritic`, `brakeman`
-- CI/CD
-  - `Travis CI`
-  - `Coveralls.io` for test coverage history & statistics
-  - `Hakiri.io` & `GuardRails.io` as security vulnerabilities scanner
-- `Docker` & `docker-compose`
-
 ## Setup
 
 Clone this repository:
 
-`git clone git@github.com:maxbarsukov/shoeshop.git`
+<<<<<<< HEAD
+`git clone https://github.com/NguyenQMinh01/WebShoeShop.git
+=======
+`git clone https://github.com/NguyenQMinh01/WebShoeShop.git`
+>>>>>>> afc016e (changeFiletoErb)
 
 Install gems:
 
@@ -66,13 +63,11 @@ Setup your test database:
 
 ## Run
 
-With Foreman:
-- Dev:
-    `foreman start`
-- Production:
-    `foreman start -f Procfile`
-
-Using Docker: `docker-compose up`
+<<<<<<< HEAD
+rails s
+=======
+`rails s`
+>>>>>>> afc016e (changeFiletoErb)
 
 ## Testing
 
@@ -84,6 +79,7 @@ Check the quality of code with `bundle exec rails_best_practices . --spec -c con
 
 Run `bundle exec rubycritic` for code quality reporter
 
+<<<<<<< HEAD
+=======
 ## License
-
-MIT License. Copyright 2021 nyapsilon
+>>>>>>> afc016e (changeFiletoErb)

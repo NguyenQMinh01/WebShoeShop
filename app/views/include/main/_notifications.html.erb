@@ -1,0 +1,15 @@
+<% if notice %>
+  <div class="alert alert-success" role="alert">
+    <button aria-label="Close" class="close" onclick="this.parentElement.style.display='none'" type="button"></button>
+    <span aria-hidden="true"></span>
+    <%= notice %>
+  </div>
+<% end %>
+
+<% if alert %>
+  <div class="alert alert-danger" role="alert">
+    <button aria-label="Close" class="close" onclick="this.parentElement.style.display='none'" type="button"></button>
+    <span aria-hidden="true"></span>
+    <%= alert %>
+  </div>
+<% end %>

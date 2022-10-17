@@ -73,8 +73,6 @@ gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'haml', '~> 5.2', '>= 5.2.1'
 gem 'haml-rails', '~> 2.0', '>= 2.0.1'
 
-# Provides an easy-to-use interface for managing your data
-gem 'rails_admin'
 # Agnostic pagination in plain ruby
 gem 'pagy', '~> 4.10', '>= 4.10.1'
 
@@ -84,16 +82,7 @@ gem 'rack-attack', '~> 6.5'
 # Use to tag a single model on several contexts
 gem 'acts-as-taggable-on'
 
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
 
-# Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
